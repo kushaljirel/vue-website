@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1c1737;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0 6.3rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 3rem;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #fff;
+}
+
+a.getintouch {
+    text-decoration: none;
+}
+
+.getInTouch-btn {
+    padding: 16px 22px;
+    border-radius: 9px;
+    background-color: #fff;
+    background-image: linear-gradient(177deg, #f9dcfe, #e2d4ff);
+    box-shadow: 5px 5px 0 0 rgba(249, 220, 254, 0.3);
+    transition: box-shadow 0.2s ease-in;
+    font-family: Inter, sans-serif;
+    color: #1c1737;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.getInTouch-btn:hover {
+    padding: 16px 22px;
+    border-radius: 9px;
+    background-color: #fff;
+    background-image: linear-gradient(177deg, #f9dcfe, #e2d4ff);
+    box-shadow: 0 0 0 0 rgba(249, 220, 254, 0.3);
+    font-family: Inter, sans-serif;
+    color: #1c1737;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* hero section start */
+.hero-section {
+    padding-top: 140px;
+    background-image: url("https://uploads-ssl.webflow.com/613257565842be107207eeab/6281406f39e6f5d634d87429_Background%20SVG.svg");
+    background-position: 50% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    max-width: 1280px;
+    display: flex;
+    position: relative;
+}
+
+.leftCol {
+    width: 50%;
+    line-height: 1.3;
+    z-index: 1;
+}
+
+.leftCol p.top-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.leftCol p.bottom-desc {
+    font-size: 20px;
+    width: 440px;
+}
+
+.leftCol h1 {
+    font-size: 40px;
+    margin: 2rem 0;
+    font-weight: 700;
+}
+
+.leftCol a {
+    text-decoration: none;
+    display: flex;
+}
+
+.leftCol .btn-text {
+    padding: 16px 22px;
+    border-radius: 9px;
+    background-color: #fff;
+    background-image: linear-gradient(177deg, #f9dcfe, #e2d4ff);
+    box-shadow: 5px 5px 0 0 rgba(249, 220, 254, 0.3);
+    transition: box-shadow 0.2s ease-in;
+    font-family: Inter, sans-serif;
+    color: #1c1737;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 4rem 0;
+}
+
+.leftCol .btn-text:hover {
+    padding: 16px 22px;
+    border-radius: 9px;
+    background-color: #fff;
+    background-image: linear-gradient(177deg, #f9dcfe, #e2d4ff);
+    box-shadow: 0 0 0 0 rgba(249, 220, 254, 0.3);
+    font-family: Inter, sans-serif;
+    color: #1c1737;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.services {
+    width: 80%;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.services div svg {
+    width: 2rem;
+}
+
+.services div {
+    display: flex;
+    gap: 1rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.rightCol {
+    position: absolute;
+    left: auto;
+    right: -3%;
+    width: 900px;
+}
+
+/* project that have been build */
+
+.buildWebsites {
+    padding: 100px 0;
+}
+
+.buildWebsites h1 {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.websites-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.buildWebsites a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.buildWebsites .btn-text {
+    padding: 16px 22px;
+    border-radius: 9px;
+    background-color: #fff;
+    background-image: linear-gradient(177deg, #f9dcfe, #e2d4ff);
+    box-shadow: 5px 5px 0 0 rgba(249, 220, 254, 0.3);
+    transition: box-shadow 0.2s ease-in;
+    font-family: Inter, sans-serif;
+    color: #1c1737;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* width: 50%; */
+}
+
+.buildWebsites .btn-text:hover {
+    padding: 16px 22px;
+    border-radius: 9px;
+    background-color: #fff;
+    background-image: linear-gradient(177deg, #f9dcfe, #e2d4ff);
+    box-shadow: 0 0 0 0 rgba(249, 220, 254, 0.3);
+    font-family: Inter, sans-serif;
+    color: #1c1737;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* width: 50%; */
+}
+
+/* why choose vue */
+
+.whyVue {
+    margin: 100px 0;
+}
+
+.whyVue h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.whyVue .courses {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 16px;
+}
+
+.whyVue .courses .course-item {
+    display: flex;
+    overflow: hidden;
+    padding: 10px 15px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 0 auto;
+    border-radius: 11px;
+    background-color: #f2dafe;
+    transition: 0.2s ease-in-out;
+    color: #000;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.whyVue .courses .course-item:hover {
+    transform: scale(1.05);
+}
+
+.whyVue .courses .course-item .mobile {
+    margin-bottom: 0;
+    font-family: 'Acumin pro', sans-serif;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.whyVue .courses .course-item .benefits_icon-2 {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.whyVue .courses .course-item img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+/* advertisement section style */
+
+.advertisement {
+    margin: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("https://uploads-ssl.webflow.com/613257565842be107207eeab/630d45763112294160baf1e7_Abstract%20BG.svg");
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.container.flex {
+    position: relative;
+    display: flex;
+    max-width: 1280px;
+    padding-right: 16px;
+    padding-left: 16px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.cta-wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    background-image: linear-gradient(180deg, #f9dcfe, #e2d4ff);
+}
+
+.cta_header {
+    max-width: 80%;
+    margin-top: 0;
+    color: #1c1737;
+    font-size: 28px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.cta-wrapper.absolute {
+    position: absolute;
+    left: auto;
+    top: 0;
+    right: -7px;
+    bottom: -7px;
+    z-index: -2;
+    width: 100%;
+    max-width: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: .3;
+}
+
+.cta-wrapper.absolute._2 {
+    right: -14px;
+    bottom: -14px;
+    z-index: -1;
+    opacity: .3;
+}
+
+/* footer starts */
+
+footer{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-foot img{
+    width: 100px;
+}
+
+.right-foot p{
+    font-size: 1.6rem;
+}
+
+.right-foot>p{
+    margin-top: 5.8rem;
+    margin-bottom: 22px;
+}
+
+.left-foot a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+}
+
+
